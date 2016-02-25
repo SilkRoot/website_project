@@ -1,0 +1,89 @@
+<!--
+	Website created by Sebastian Lemstra
+	based on Christoph Anastasiades tutorial
+	https://github.com/ChristophAnastasiades/Lingulo-Responsive-Tutorial
+
+	sources:
+	respond.js https://github.com/scottjehl/Respond
+	lightbox2 http://lokeshdhakar.com/projects/lightbox2/
+	minify: https://github.com/mrclay/minify
+	free images: http://www.open-image.net/
+	responsive silder: http://www.slidesjs.com/
+	prefix: http://leaverou.github.io/prefixfree/
+-->
+
+
+<!DOCTYPE HTML>
+<html>
+	<head>
+		<meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+		<meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+
+		<title>Lemstra</title>
+
+		<!--stylesheets-->
+		<link rel="stylesheet" href="css/reset.css" type="text/css" media="screen" />
+		<link rel="stylesheet" href="css/style.css" type="text/css" media="screen" />
+		<link href="lib/lightbox/css/lightbox.css" rel="stylesheet" /><!--external stylesheet for enlarging pictures-->
+
+		<!--libraries-->
+		<script src="lib/modernizr.js"></script>
+		<script src="lib/respond.min.js"></script>
+		<!-- include extern jQuery file but fall back to local file if extern one fails to load !-->
+		<script src="http://code.jquery.com/jquery-1.7.2.min.js"></script>
+		<script type="text/javascript">window.jQuery || document.write('<script type="text\/javascript" src="lib\/1.7.2.jquery.min"><\/script>')</script>
+		<script src="lib/lightbox/js/lightbox.js"></script>
+		<script src="lib/prefixfree.min.js"></script>
+		<script src="lib/jquery.slides.min.js"></script>
+	</head>
+	<body>
+		<!--title and navigation-->
+		<header>
+			<h1>Sebastian Lemstra</h1>
+		<!--	<p>put subtitle here</p>-->
+			<nav>
+				<ul>
+				<li><a href="javascript:void(0)">Home</a></li>
+				<li><a href="javascript:void(0)">Blog</a></li>
+				<li><a href="javascript:void(0)">About</a></li>
+				<li><a href="javascript:void(0)">Kontakt</a></li></ul>
+			</nav>
+		</header>
+
+		<!--image/article slider-->
+		<section class="container">
+        	<h2 class="hidden">Lorem Ipsum</h2>
+            <article id="slider_content1">
+                <h3>Artikel 1</h3>
+                <p>Weit hinten, hinter den Wortbergen, fern der Länder Vokalien und Konsonantien leben die Blindtexte. Abgeschieden wohnen Sie in Buchstabhausen an der Küste des Semantik. <a href="javascript:void(0)" class="responsive_button">Mehr lesen...</a></p>
+                <a class="button" href="javascript:void(0)">Mehr lesen</a>
+            </article>
+            <article id="slider_content2">
+                <h3>Artikel 2</h3>
+                <p>Ein kleines Bächlein namens Duden fließt durch ihren Ort und versorgt sie mit den nötigen Regelialien. Es ist ein paradiesmatisches Land, in dem einem gebratene Satzteile in den Mund fliegen. <a href="javascript:void(0)" class="responsive_button">Mehr lesen...</a></p>
+                <a class="button" href="javascript:void(0)">Mehr lesen</a>
+            </article>
+            <article id="slider_content3">
+                <h3>Artikel 3</h3>
+                <p>Nicht einmal von der allmächtigen Interpunktion werden die Blindtexte beherrscht – ein geradezu unorthographisches Leben. <a href="javascript:void(0)" class="responsive_button">Mehr lesen...</a></p>
+                <a class="button" href="javascript:void(0)">Mehr lesen</a>
+            </article>
+            <div id="slides">
+                <img src="img/slider/slide1.jpg" alt="Some alt text">
+                <img src="img/slider/slide2.jpg" alt="Some alt text">    	
+                <img src="img/slider/slide3.jpg" alt="Some alt text">
+            </div>
+        </section>
+
+        <!--search bar-->
+        <section id="spacer">
+			<h2 class="hidden">Dolor sit amet</h2>
+			<p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit?</p>
+			<div class="search">
+				<form action="#">
+				<input type="text" name="sitesearch" value="Enter a word..."/>
+				<input type="submit" name="start_search" class="button" value="Search"/></form>
+			</div>
+		</section>
+	</body>
+</html>

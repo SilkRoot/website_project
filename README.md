@@ -16,7 +16,7 @@ The target of this small project is the set up of a small website to introduce m
 
 -	jQueryUI
 -	BootStrap
--	OpenLayers 3.0
+-	[respond.js](https://github.com/scottjehl/Respond)
 -	d3.js
 
 # Known Issues:

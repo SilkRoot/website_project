@@ -1,7 +1,7 @@
 /* GLOBAL */
 body
 {
-        border-top:5px solid #68ea86;
+        border-top:5px solid #4AC688;
         background:#ebe8de;
         font-family: 'Open Sans', sans-serif;
         color:#333333;
@@ -72,6 +72,19 @@ hr
         margin:20px 0;
 }
 
+/* FONTS */
+
+@font-face {
+        font-family: 'League Gothic';
+    src: url('../fonts/league_of_gothic/webfonts/leaguegothic-regular-webfont.eot');
+    src: url('../fonts/league_of_gothic/webfonts/leaguegothic-regular-webfont.eot?#iefix') format('embedded-opentype'),
+         url('../fonts/league_of_gothic/webfonts/leaguegothic-regular-webfont.woff') format('woff'),
+         url('../fonts/league_of_gothic/webfonts/leaguegothic-regular-webfont.ttf') format('truetype'),
+         url('../fonts/league_of_gothic/webfonts/leaguegothic-regular-webfont.svg#league_gothicregular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+
 
 /* HEADER */
 
@@ -87,8 +100,10 @@ header h1
 {
         margin:35px 0 0 0;
         font-size:55px;
-        color:#68ea86;
-        font-family: 'Baumans', cursive;
+        color:#4AC688;
+   /*     font-family: 'Baumans', cursive;*/
+    /*    font-family: 'League Gothic', normal, normal;*/
+        font-family: Century Gothic,CenturyGothic,AppleGothic,sans-serif;
 }
 
 header p
@@ -238,12 +253,12 @@ nav ul li a:hover
 .button
 {
         padding:7px 14px;
-        border: 1px solid #c3532e;
+        border: 1px solid #4AC688;
         background-image: linear-gradient(bottom, #E56038 0%, #ff8c66 100%);
-        background-image: linear-gradient(to bottom, #ff8c66 0%, #E56038 100%);
+        background-image: linear-gradient(to bottom, #4AC688 0%, #4AC688 100%);
         background-color: #eb653c;
         color: #EBE8DE;
-        text-shadow: 1px 1px 0px #ff8155;
+        text-shadow: 1px 1px 0px #4AC688;
         text-decoration:none;
         border-radius:5px;
         box-shadow: 1px 1px 2px 1px rgba(0, 0, 0, 0.3);
@@ -264,7 +279,7 @@ nav ul li a:hover
 {
         width:auto;
         height:70px;
-        background-color:#68ea86;
+        background-color:#4AC688;
         position:relative;
         font-family: 'Open Sans', sans-serif;
         color:#fff;
